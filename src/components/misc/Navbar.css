@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+li{
+    padding-left: 2rem;
+    padding-top: .5rem;
+}
+.a-tag-navabr:hover{
+    color: #212529;
+
+}
+
+
+.contact-button{  
+    border-radius: 16px;
+    color: #212529;
+}
+  
+
