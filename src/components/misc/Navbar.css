@@ -3,6 +3,7 @@
 nav{
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    background-color: transparent;
 }
 
 ul {
@@ -29,3 +30,6 @@ li{
 }
   
 
+.a-tag-navbar-contact-me-button:hover{
+    color: #fff;
+}

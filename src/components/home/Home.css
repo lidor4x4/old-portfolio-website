@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 .container-home {
     position: relative;
     text-align: center;
@@ -52,4 +56,242 @@
 
 .a-tag-explore-button:hover{
     color: white;
+}
+
+
+.container-about-me{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.about-me-title{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-text1{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-me-text2{
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.home-page-mid-img{
+    width:100%;
+    height:700px;
+    max-width: 100%;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+.my-projects-title{
+    color: black;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card{
+    display: inline-flex;
+    text-align: center;
+    color: black;
+    margin-bottom: 1rem;
+}
+.container-my-projects{
+    text-align: center;
+}
+
+.card1{
+    padding-left: 2rem;
+}
+
+.card2{
+    padding-left: 2rem;
+
+}
+
+.card3{
+    padding-left: 2rem;
+}
+
+@media screen and (max-width: 480px){
+    .explore-my-projects-button{
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .home-page-title{  
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-me-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+    .about-me-text1{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-me-text2{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+       
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .home-page-title{  
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-me-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+    .about-me-text1{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about-me-text2{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .explore-my-projects-button{
+        font-size: 1.5rem;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        margin-top: 1rem;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+    
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .about-me-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+
+    .about-me-text2{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+    
+@media screen and (max-width: 1280px) and (min-width: 1025px)  {
+    .about-me-title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }    
+
+    .about-me-text2{
+        font-size: 1.5rem;
+        margin-top: .5rem;
+        font-weight: 500;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
