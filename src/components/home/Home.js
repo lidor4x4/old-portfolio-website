@@ -14,14 +14,14 @@ const Home = () => {
                 <div className="container-home">
                     <h1 className="home-page-title">Hello!</h1>
                     <div className="home-page-subtitle"><TypeAnimation cursor={false} repeat={Infinity} sequence={["My name is Lidor and I'm a front-end web developer.", 1000, '']} wrapper="h3"/></div>
-                    <img src={require('./home_assets/home-page-top.jpg')} alt="Home" className="home-top-img" />
-                    <Button className="explore-my-projects-button" variant="outline-success"><a href="#projects-section" className="a-tag-explore-button">Explore my projects</a></Button>
+                    <img src={require('./home_assets/home-page-top.png')} alt="Home" className="home-top-img" />
+                    <Button className="explore-my-projects-button" variant="outline-primary"><a href="#projects-section" className="a-tag-explore-button">Explore my projects</a></Button>
                 </div>
             </section>
             <section className="section-2" id="about-me-section">
                 <div className="container-about-me">
                     <h1 className="about-me-title">About Me</h1>
-                    <img src={require("./home_assets/home-page-mid.jpg")} alt="home-page-mid-img" className="home-page-mid-img" />
+                    <img src={require("./home_assets/home-page-mid.png")} alt="home-page-mid-img" className="home-page-mid-img" />
                     <h4 className="about-me-text1">Hello there my name is Lidor and I'm a professional front-end web developer.</h4>
                     <h4 className="about-me-text2">I'm doing front-end web development for over three years.</h4>
                 </div>
