@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
 
 
-
-
 *{
     scroll-behavior: smooth;
 }
@@ -48,6 +46,7 @@
 }
 
 .explore-my-projects-button{
+    color: #fff;
     font-size: 1.5rem;
     font-family: 'assistant', sans-serif;
     font-weight: 400;

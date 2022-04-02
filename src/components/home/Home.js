@@ -15,7 +15,7 @@ const Home = () => {
                     <h1 className="home-page-title">Hello!</h1>
                     <div className="home-page-subtitle"><TypeAnimation cursor={false} repeat={Infinity} sequence={["My name is Lidor and I'm a front-end web developer.", 1000, '']} wrapper="h3"/></div>
                     <img src={require('./home_assets/home-page-top.png')} alt="Home" className="home-top-img" />
-                    <Button className="explore-my-projects-button" variant="outline-primary"><a href="#projects-section" className="a-tag-explore-button">Explore my projects</a></Button>
+                    <Button className="explore-my-projects-button" variant="outline-primary" href="#projects-section">Explore my projects</Button>
                 </div>
             </section>
             <section className="section-2" id="about-me-section">
